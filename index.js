@@ -34,4 +34,7 @@ function calculatesFarePrice(start, destination) {
    return (distanceTravelledInFeet(start, destination) -400) * 0.02
    
   }
+  
+  else if ( (distanceTravelledInFeet(start, destination) < 400) ){
+   return (distanceTravelledInFeet(start, destination) -400) * 0.02
 }
