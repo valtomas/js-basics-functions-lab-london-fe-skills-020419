@@ -20,5 +20,8 @@ function distanceTravelledInFeet(block1, block2) {
 
 function calculatesFarePrice(start, destination) {
   
-  
+  if  (distanceTravelledInFeet(start, destination) > 2500) {
+    
+    return 
+  }
 }
