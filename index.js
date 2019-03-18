@@ -5,3 +5,9 @@ function distanceFromHqInBlocks(block) {
    return Math.abs(block - hqBlock)
   
 }
+
+function distanceFromHqInFeet(block) {
+  
+  
+  
+}
